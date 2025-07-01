@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <h2>TRAVELS.COM</h2>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-links">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+        </header>
+        <section class="hero">
+            <h1>WELCOME TO OUR WEBSITE</h1>
+            <p>Travel is the act of moving from one place to another, often to explore new destinations, cultures, and experiences. Whether it's a relaxing beach getaway, an adventurous mountain trek, 
+                or a cultural city tour, travel opens the door to discovery and personal growth. It allows people to escape their routines, connect with others, and create unforgettable memories.
+                 At Travel.com, we believe that every journey has the power to inspire, educate, and transform—making the world feel a little smaller and a lot more connected.
+            </p>
+            <a href="#" class="cta-button">Get started</a>
+            
+        </section>
+        <footer class="footer">
+            <p>follow us</p>
+            <div class="social-links">
+                 <a href="#">🌐</a>
+                 <a href="#">🐦</a>
+                 <a href="#">📸</a>
+            </div>
+            <p>&copy; 2025 MyCompany. All rights reserved.</p>
+
+        </footer>
+          <script>
+            
+               function toggleMenu() {
+                  document.getElementById('navbar').classList.toggle('active');
+                }
+           </script>
+     
+        
+    </body>
+</html>
